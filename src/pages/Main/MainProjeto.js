@@ -11,7 +11,7 @@ const MainProjeto = () => {
                 <div className="card-body txt-estilo">
                     <h5 className="card-title">MY Portifolio</h5>
                     <p className="card-text">Site criado ultilizando biblioteca React. </p>
-                    <a href="#123" target="_blank" className="btn btn-primary">Ver
+                    <a href="https://my-portfolio-five-teal.vercel.app/" target="_blank" className="btn btn-primary">Ver
                         projeto</a>
                 </div>
             </article>

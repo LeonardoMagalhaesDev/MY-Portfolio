@@ -67,5 +67,11 @@
 	nav a {
 		font-size: 1.5rem;
 	}
+	.banner__hello{
+		font-size: 1.5rem;
+	}
+	.banner__name{
+		font-size: 2rem;
+	}
 }
 /* fim de header */

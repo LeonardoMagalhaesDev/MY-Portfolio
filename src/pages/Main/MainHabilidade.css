@@ -1,0 +1,43 @@
+#icons{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.Habilidade__titulo{
+  padding-top: 1em;
+}
+.conhecimento-icons {
+  width: 120px;
+  height: 220px;
+  background-color: #1FA698;
+}
+
+.conhecimento-icons:hover{
+  background-color: #F26E22;
+  border: 3px solid #F25D27;
+  padding: 10px;
+}
+
+.conhecimentos-container {
+  background-color: #B8CAD9;
+  height: 55vh;
+}
+
+@media only screen and (max-width: 1024px){
+  #icons{
+    display: flex;
+    flex-direction: column;
+  }
+  .conhecimento-icons {
+    width: 100px;
+    height: 100px;
+  }
+   button{
+    margin-bottom: 1em;
+  }
+  .conhecimentos-container {
+    height: 100%;
+  }
+  
+}

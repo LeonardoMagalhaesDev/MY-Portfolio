@@ -1,0 +1,14 @@
+.card{
+    width: 18rem;
+    background-color:#B8CAD9;
+    margin-bottom: 1em;
+}
+
+#Projetos{
+    background-color: #1FA698;
+    width: 100%;
+    margin: auto;
+}
+.Projetos__titulo{
+    padding-top: 1em;
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+aside .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+	aside .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	aside nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 50%;
+		width: 100%;
+        background-color: #F25D27;
+		transition: 1s;
+        padding-bottom: 10%;
+        font-size: 1.5rem;
+	}
+    li{
+        padding-bottom: 20px;
+        display: flex;
+        align-self: center;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Curriculo from '../../assets/img/CurrículoLeonardoMagalhaesDev.pdf'
 
 import './MainSobre.css'
 // My img
@@ -23,7 +24,7 @@ const MainSobre = () => {
                 Valley, por fome de conhecimento e para ampliar meus horizontes de
                 oportunidades.</p>
 
-                <a href="https://drive.google.com/drive/u/0/computers" target='_blank'
+                <a href={Curriculo} target='_blank'
                     className="btn btn-outline-primary btn-lg mt-3 me-5" rel="noreferrer">
                     <i class="bi bi-cloud-download Sobre__icon">  Curriculo</i></a>
                 <a href="https://mail.google.com/mail/u/1/#inbox" target='_blank' className="btn btn-outline-primary btn-lg mt-3" rel="noreferrer">
